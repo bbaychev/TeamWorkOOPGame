@@ -1,0 +1,9 @@
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\Game\Game\Game\obj\x86\Debug\Game.csprojResolveAssemblyReference.cache
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\Game\Game\Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\Game\Game\Game\obj\x86\Debug\Game.exe
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\Game\Game\Game\obj\x86\Debug\Game.pdb
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\Game\Game\Game\Content\SplashScreen\Image.xnb
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\Game\Game\Game\Content\Load\SplashScreen.xml
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\Game\Game\Game\Game.exe
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\Game\Game\Game\Game.pdb
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\Game\Game\Game\Content\Fonts\Arial.xnb
