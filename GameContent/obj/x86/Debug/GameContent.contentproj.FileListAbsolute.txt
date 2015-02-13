@@ -1,1 +1,2 @@
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\Game\Game\GameContent\obj\x86\Debug\GameContent.contentprojResolveAssemblyReference.cache
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameContent\obj\x86\Debug\GameContent.contentprojResolveAssemblyReference.cache
