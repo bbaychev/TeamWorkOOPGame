@@ -1,3 +1,0 @@
-Content\Fonts\Arial.xnb
-Content\SplashScreen\Image.xnb
-Content\Load\SplashScreen.xml
