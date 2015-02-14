@@ -1,0 +1,9 @@
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\bin\x86\Debug\Content\Fonts\Arial.xnb
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\bin\x86\Debug\Content\SplashScreen\Image.xnb
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\bin\x86\Debug\Content\Load\SplashScreen.xml
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\bin\x86\Debug\GameTeamWork.exe
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\bin\x86\Debug\GameTeamWork.pdb
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\GameTeamWork.csprojResolveAssemblyReference.cache
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\GameTeamWork.exe
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\GameTeamWork.pdb
