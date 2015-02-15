@@ -1,3 +1,3 @@
 # TeamWorkOOPGame
 To-do list:
-1. Splas Screen - Cvyatko
+1. Splash Screen - Cvyatko
