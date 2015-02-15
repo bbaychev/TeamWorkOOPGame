@@ -11,6 +11,11 @@ namespace GameTeamWork
     {
         public Type Type { get; set; }
 
+        public XmlManager()
+        {
+            Type = typeof(T);
+        }
+
         public T Load(string path)
         {
             T instance;

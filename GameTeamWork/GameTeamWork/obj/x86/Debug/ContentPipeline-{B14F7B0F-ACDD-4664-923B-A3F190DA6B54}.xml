@@ -7,7 +7,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\bin\x86\Debug\Content\Fonts\Arial.xnb</Output>
+      <Output>Content\Fonts\Arial.xnb</Output>
       <Time>2015-02-14T19:06:06.9446583+02:00</Time>
     </Item>
     <Item>
@@ -16,8 +16,17 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\bin\x86\Debug\Content\SplashScreen\Image.xnb</Output>
+      <Output>Content\SplashScreen\Image.xnb</Output>
       <Time>2015-02-10T20:03:49.8898861+02:00</Time>
+    </Item>
+    <Item>
+      <Source>ScreenManager\FadeImage.png</Source>
+      <Name>ScreenManager\FadeImage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Content\ScreenManager\FadeImage.xnb</Output>
+      <Time>2015-02-15T11:32:38.0069881+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -29,7 +38,7 @@
       <RootDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\</RootDirectory>
       <LoggerRootDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\</LoggerRootDirectory>
       <IntermediateDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\bin\x86\Debug\Content\</OutputDirectory>
+      <OutputDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

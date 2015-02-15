@@ -16,21 +16,26 @@ namespace GameTeamWork
         public string Text, FontName, Path;
         public Vector2 Position, Scale;
         public Rectangle SourceRect;
-
+        public string Effects;
         public Texture2D Texture;
-        Vector2 origin;
-        ContentManager content;
-        RenderTarget2D renderTarget;
-        SpriteFont font;
+        public bool IsActive;
+        public FadeEffect FadeEffect;
+        
+        private Vector2 origin;
+        private ContentManager content;
+        private RenderTarget2D renderTarget;
+        private SpriteFont font;
+        private Dictionary<String, ImageEffect> effectList;
 
         public Image()
         {
-            Path = Text = String.Empty;
+            Path = Text = Effects = String.Empty;
             FontName = "Fonts/Arial";
             Position = Vector2.Zero;
             Scale = Vector2.One;
             Alpha = 1.0f;
             SourceRect = Rectangle.Empty;
+            effectList = new Dictionary<string,ImageEffect>();
         }
 
         public void LoadContent()
@@ -84,21 +89,79 @@ namespace GameTeamWork
             Texture = renderTarget;
 
             ScreenManager.Instance.GraphicsDevice.SetRenderTarget(null);
+
+            SetEffect<FadeEffect>(ref FadeEffect);
+
+            if (Effects != String.Empty)
+            {
+                string[] split = Effects.Split(':');
+
+                foreach (string item in split)
+                {
+                    ActivateEffect(item);
+                }
+            }
         }
 
         public void UnloadContent()
         {
             content.Unload();
+            foreach (var effect in effectList)
+            {
+                DeactivateEffect(effect.Key);
+            }
         }
 
         public void Update(GameTime gameTime)
         {
+            foreach (var effect in effectList)
+            {
+                if (effect.Value.IsActive)
+                {
+                    effect.Value.Update(gameTime);
+                }
+            }
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
             origin = new Vector2(SourceRect.Width / 2, SourceRect.Height / 2);
             spriteBatch.Draw(Texture, Position + origin, SourceRect, Color.White * Alpha, 0.0f, origin, Scale, SpriteEffects.None, 0.0f);
+        }
+
+        public void ActivateEffect(string effect)
+        {
+            if (effectList.ContainsKey(effect))
+            {
+                effectList[effect].IsActive = true;
+                var obj = this;
+                effectList[effect].LoadContent(ref obj);
+            }
+        }
+
+        public void DeactivateEffect(string effect)
+        {
+            if (effectList.ContainsKey(effect))
+            {
+                effectList[effect].IsActive = false;
+                effectList[effect].UnloadContent();
+            }
+        }
+
+        private void SetEffect<T>(ref T effect)
+        {
+            if (effect == null)
+            {
+                effect = (T)Activator.CreateInstance(typeof(T));
+            }
+            else
+            {
+                (effect as ImageEffect).IsActive = true;
+                var obj = this;
+                (effect as ImageEffect).LoadContent(ref obj);
+            }
+
+            effectList.Add(effect.GetType().ToString().Replace("GameTeamWork.", ""), (effect as ImageEffect));
         }
     }
 }
