@@ -10,7 +10,6 @@ C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWo
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\GameTeamWork.exe
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\GameTeamWork.pdb
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Fonts\Arial.xnb
-C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\SplashScreen\Image.xnb
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\ScreenManager\FadeImage.xnb
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\SplashScreen.xml
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\ScreenManager.xml
@@ -41,3 +40,4 @@ C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\Ga
 C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\GameTeamWork.exe
 C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\GameTeamWork.pdb
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\SplashScreen\NewSplashScreen.xnb

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <SplashScreen>
   <Image>
-    <Path>SplashScreen/Image</Path>
+    <Path>SplashScreen/NewSplashScreen</Path>
     <Effects>FadeEffect</Effects>
     <IsActive>false</IsActive>
     <FadeEffect>
@@ -13,8 +13,8 @@
       <Y>1.0</Y>
     </Scale>
     <Position>
-      <X>200</X>
-      <Y>130</Y>
+      <X>0</X>
+      <Y>0</Y>
     </Position>
   </Image>
 </SplashScreen>

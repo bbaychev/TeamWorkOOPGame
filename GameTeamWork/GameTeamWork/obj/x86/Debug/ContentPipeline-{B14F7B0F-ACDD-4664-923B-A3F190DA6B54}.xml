@@ -8,7 +8,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>Content\Fonts\Arial.xnb</Output>
-      <Time>2015-02-16T20:00:46.290818+02:00</Time>
+      <Time>2015-02-14T19:06:06.9446583+02:00</Time>
     </Item>
     <Item>
       <Source>ScreenManager\FadeImage.png</Source>
@@ -17,16 +17,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>Content\ScreenManager\FadeImage.xnb</Output>
-      <Time>2015-02-16T20:00:46.3118192+02:00</Time>
+      <Time>2015-02-15T11:32:38.0069881+02:00</Time>
     </Item>
     <Item>
-      <Source>SplashScreen\Image.png</Source>
-      <Name>SplashScreen\Image</Name>
+      <Source>SplashScreen\NewSplashScreen.jpg</Source>
+      <Name>SplashScreen\NewSplashScreen</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>Content\SplashScreen\Image.xnb</Output>
-      <Time>2015-02-16T20:33:38.0825981+02:00</Time>
+      <Output>Content\SplashScreen\NewSplashScreen.xnb</Output>
+      <Time>2015-02-17T20:20:22.8435138+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -35,10 +35,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\</OutputDirectory>
+      <RootDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\</RootDirectory>
+      <LoggerRootDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -67,7 +67,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-02-10T13:01:54.3331345+02:00</Value>
+        <Value>2015-02-08T09:31:03.2993427+02:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
