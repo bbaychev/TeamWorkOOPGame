@@ -3,7 +3,7 @@
   <Image>
     <Path>SplashScreen/Image</Path>
     <Effects>FadeEffect</Effects>
-    <IsActive>true</IsActive>
+    <IsActive>false</IsActive>
     <FadeEffect>
       <FadeSpeed>3.3</FadeSpeed>
     </FadeEffect>

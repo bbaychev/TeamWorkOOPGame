@@ -29,3 +29,15 @@ D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\Team
 D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\GameTeamWork.exe
 D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\GameTeamWork.pdb
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Fonts\Arial.xnb
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\ScreenManager\FadeImage.xnb
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\SplashScreen\Image.xnb
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\SplashScreen.xml
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Menus\TitleMenu.xml
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\ScreenManager.xml
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\GameTeamWork.exe
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\GameTeamWork.pdb
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\GameTeamWork.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\GameTeamWork.exe
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\GameTeamWork.pdb

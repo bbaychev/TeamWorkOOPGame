@@ -7,7 +7,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>Content\Fonts\Arial.xnb</Output>
+      <Output>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\Content\Fonts\Arial.xnb</Output>
       <Time>2015-02-16T20:00:46.290818+02:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>Content\ScreenManager\FadeImage.xnb</Output>
+      <Output>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\Content\ScreenManager\FadeImage.xnb</Output>
       <Time>2015-02-16T20:00:46.3118192+02:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>Content\SplashScreen\Image.xnb</Output>
+      <Output>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\Content\SplashScreen\Image.xnb</Output>
       <Time>2015-02-16T20:33:38.0825981+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -33,12 +33,12 @@
       <ContentProjectGUID>{B14F7B0F-ACDD-4664-923B-A3F190DA6B54}</ContentProjectGUID>
       <TargetPlatform>Windows</TargetPlatform>
       <TargetProfile>HiDef</TargetProfile>
-      <BuildConfiguration>Debug</BuildConfiguration>
-      <CompressContent>false</CompressContent>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
       <RootDirectory>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\</RootDirectory>
       <LoggerRootDirectory>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\</OutputDirectory>
+      <IntermediateDirectory>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

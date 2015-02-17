@@ -1,6 +1,6 @@
 Content\Fonts\Arial.xnb
-Content\SplashScreen\Image.xnb
 Content\ScreenManager\FadeImage.xnb
+Content\SplashScreen\Image.xnb
 Content\Load\SplashScreen.xml
 Content\Load\Menus\TitleMenu.xml
 Content\Load\ScreenManager.xml

@@ -1,2 +1,3 @@
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\obj\x86\Debug\GameTeamWorkContent.contentprojResolveAssemblyReference.cache
 D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\obj\x86\Debug\GameTeamWorkContent.contentprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\obj\x86\Debug\GameTeamWorkContent.contentprojResolveAssemblyReference.cache

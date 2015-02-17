@@ -1,0 +1,12 @@
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\GameTeamWork.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\Content\Fonts\Arial.xnb
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\Content\ScreenManager\FadeImage.xnb
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\Content\SplashScreen\Image.xnb
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\Content\Load\SplashScreen.xml
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\Content\Load\Menus\TitleMenu.xml
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\Content\Load\ScreenManager.xml
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\GameTeamWork.exe
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\GameTeamWork.pdb
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\GameTeamWork.exe
+C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\GameTeamWork.pdb
