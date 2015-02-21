@@ -35,6 +35,11 @@ namespace GameTeamWork
             }
         }
 
+        public int ItemNumber
+        {
+            get { return itemNumber; }
+        }
+
         public Menu()
         {
             id = String.Empty;
@@ -123,6 +128,24 @@ namespace GameTeamWork
             foreach (MenuItem item in Items)
             {
                 item.Image.Draw(spriteBatch);
+            }
+        }
+
+        public void Transition(float alpha)
+        {
+            foreach (MenuItem item in Items)
+            {
+                item.Image.IsActive = true;
+                item.Image.Alpha = alpha;
+
+                if (alpha == 0.0f)
+                {
+                    item.Image.FadeEffect.Increase = true;
+                }
+                else
+                {
+                    item.Image.FadeEffect.Increase = false;
+                }
             }
         }
 

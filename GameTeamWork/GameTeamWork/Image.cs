@@ -148,6 +148,39 @@ namespace GameTeamWork
             }
         }
 
+        public void StoreEffects()
+        {
+            Effects = String.Empty;
+
+            foreach (var effect in effectList)
+            {
+                if (effect.Value.IsActive)
+                {
+                    Effects += effect.Key + ":";
+                }
+            }
+
+            if (Effects != String.Empty)
+            {
+                Effects.Remove(Effects.Length - 1);
+            }
+        }
+
+        public void RestoreEffects()
+        {
+            foreach (var effect in effectList)
+            {
+                DeactivateEffect(effect.Key);
+            }
+
+            string[] split = Effects.Split(':');
+
+            foreach (string s in split)
+            {
+                ActivateEffect(s);
+            }
+        }
+
         private void SetEffect<T>(ref T effect)
         {
             if (effect == null)

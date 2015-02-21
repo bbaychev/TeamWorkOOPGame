@@ -28,6 +28,15 @@
       <Output>Content\SplashScreen\NewSplashScreen.xnb</Output>
       <Time>2015-02-17T20:20:22.8435138+02:00</Time>
     </Item>
+    <Item>
+      <Source>Load\Gameplay\player.png</Source>
+      <Name>Load\Gameplay\player</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Content\Load\Gameplay\player.xnb</Output>
+      <Time>2015-02-21T20:18:12.7279187+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{B14F7B0F-ACDD-4664-923B-A3F190DA6B54}</ContentProjectGUID>

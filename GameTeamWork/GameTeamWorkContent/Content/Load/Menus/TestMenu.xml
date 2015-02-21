@@ -3,10 +3,10 @@
   <Axis>Y</Axis>
   <Effects>FadeEffect</Effects>
   <Item>
-    <LinkType>Screen</LinkType>
-    <LinkID>GameplayScreen</LinkID>
+    <LinkType>Menu</LinkType>
+    <LinkID>Load/Menus/TitleMenu.xml</LinkID>
     <Image>
-      <Text>New Game</Text>
+      <Text>BOllocks Game</Text>
     </Image>
   </Item>
 

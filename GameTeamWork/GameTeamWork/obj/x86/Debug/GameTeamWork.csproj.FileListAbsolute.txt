@@ -41,3 +41,6 @@ C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\Mi
 C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\GameTeamWork.exe
 C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\GameTeamWork.pdb
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\SplashScreen\NewSplashScreen.xnb
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Menus\TestMenu.xml
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\player.xnb
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Player.xml
