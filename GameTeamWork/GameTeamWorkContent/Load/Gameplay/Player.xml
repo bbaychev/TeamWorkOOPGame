@@ -2,6 +2,7 @@
 <Player>
   <Image>
     <Path>Load/Gameplay/player</Path>
+    <Effects>SpriteSheetEffect</Effects>
   </Image>
   <MoveSpeed>100</MoveSpeed>
 </Player>

@@ -20,6 +20,7 @@ namespace GameTeamWork
         public Texture2D Texture;
         public bool IsActive;
         public FadeEffect FadeEffect;
+        public SpriteSheetEffect SpriteSheetEffect;
         
         private Vector2 origin;
         private ContentManager content;
@@ -91,6 +92,7 @@ namespace GameTeamWork
             ScreenManager.Instance.GraphicsDevice.SetRenderTarget(null);
 
             SetEffect<FadeEffect>(ref FadeEffect);
+            SetEffect<SpriteSheetEffect>(ref SpriteSheetEffect);
 
             if (Effects != String.Empty)
             {

@@ -44,3 +44,5 @@ C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWo
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Menus\TestMenu.xml
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\player.xnb
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Player.xml
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Maps\Map1.xml
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\TileSheets\Ground.xnb

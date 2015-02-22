@@ -2,8 +2,10 @@ Content\Fonts\Arial.xnb
 Content\ScreenManager\FadeImage.xnb
 Content\SplashScreen\NewSplashScreen.xnb
 Content\Load\Gameplay\player.xnb
+Content\Load\Gameplay\TileSheets\Ground.xnb
 Content\Load\SplashScreen.xml
 Content\Load\Menus\TitleMenu.xml
 Content\Load\ScreenManager.xml
 Content\Load\Menus\TestMenu.xml
 Content\Load\Gameplay\Player.xml
+Content\Load\Gameplay\Maps\Map1.xml
