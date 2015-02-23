@@ -7,8 +7,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\Content\Fonts\Arial.xnb</Output>
-      <Time>2015-02-16T20:00:46.290818+02:00</Time>
+      <Output>Content\Fonts\Arial.xnb</Output>
+      <Time>2015-02-23T10:59:30.955+02:00</Time>
     </Item>
     <Item>
       <Source>ScreenManager\FadeImage.png</Source>
@@ -16,17 +16,35 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\Content\ScreenManager\FadeImage.xnb</Output>
-      <Time>2015-02-16T20:00:46.3118192+02:00</Time>
+      <Output>Content\ScreenManager\FadeImage.xnb</Output>
+      <Time>2015-02-23T10:59:31.022+02:00</Time>
     </Item>
     <Item>
-      <Source>SplashScreen\Image.png</Source>
-      <Name>SplashScreen\Image</Name>
+      <Source>SplashScreen\NewSplashScreen.jpg</Source>
+      <Name>SplashScreen\NewSplashScreen</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\Content\SplashScreen\Image.xnb</Output>
-      <Time>2015-02-16T20:33:38.0825981+02:00</Time>
+      <Output>Content\SplashScreen\NewSplashScreen.xnb</Output>
+      <Time>2015-02-23T10:59:31.086+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Load\Gameplay\player.png</Source>
+      <Name>Load\Gameplay\player</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Content\Load\Gameplay\player.xnb</Output>
+      <Time>2015-02-23T10:59:30.976+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Load\Gameplay\TileSheets\Ground.png</Source>
+      <Name>Load\Gameplay\TileSheets\Ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Content\Load\Gameplay\TileSheets\Ground.xnb</Output>
+      <Time>2015-02-23T10:59:30.982+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -35,10 +53,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Release</BuildConfiguration>
       <CompressContent>true</CompressContent>
-      <RootDirectory>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWork\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWork\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -67,7 +85,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-02-10T13:01:54.3331345+02:00</Value>
+        <Value>2015-02-23T18:33:24.9456+02:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

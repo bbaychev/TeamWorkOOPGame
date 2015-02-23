@@ -1,1 +1,2 @@
 C:\Users\Asus\Desktop\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\obj\x86\Release\GameTeamWorkContent.contentprojResolveAssemblyReference.cache
+C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\obj\x86\Release\GameTeamWorkContent.contentprojResolveAssemblyReference.cache
