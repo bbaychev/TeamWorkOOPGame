@@ -1,2 +1,0 @@
-Content\Gameplay\player.xnb
-Content\Gameplay\TileSheets\Ground.xnb

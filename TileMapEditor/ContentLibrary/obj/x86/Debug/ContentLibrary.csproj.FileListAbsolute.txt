@@ -1,8 +1,0 @@
-C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\TileMapEditor\ContentLibrary\obj\x86\Debug\ContentLibrary.csprojResolveAssemblyReference.cache
-C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\TileMapEditor\ContentLibrary\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\TileMapEditor\ContentLibrary\obj\x86\Debug\ContentLibrary.dll
-C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\TileMapEditor\ContentLibrary\obj\x86\Debug\ContentLibrary.pdb
-C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\TileMapEditor\ContentLibrary\Content\Gameplay\player.xnb
-C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\TileMapEditor\ContentLibrary\Content\Gameplay\TileSheets\Ground.xnb
-C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\TileMapEditor\ContentLibrary\ContentLibrary.dll
-C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\TileMapEditor\ContentLibrary\ContentLibrary.pdb
