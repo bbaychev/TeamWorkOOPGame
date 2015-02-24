@@ -113,6 +113,8 @@
     <Compile Include="Image.cs" />
     <Compile Include="ImageEffect.cs" />
     <Compile Include="InputManager.cs" />
+    <Compile Include="Items\IItem.cs" />
+    <Compile Include="Items\Item.cs" />
     <Compile Include="Layer.cs" />
     <Compile Include="Map.cs" />
     <Compile Include="Menu.cs" />
@@ -127,6 +129,8 @@
     <Compile Include="SpriteSheetEffect.cs" />
     <Compile Include="Tile.cs" />
     <Compile Include="TitleScreen.cs" />
+    <Compile Include="Unit\IUnit.cs" />
+    <Compile Include="Unit\Unit.cs" />
     <Compile Include="XmlManager.cs" />
   </ItemGroup>
   <ItemGroup>
