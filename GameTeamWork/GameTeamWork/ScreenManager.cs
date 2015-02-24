@@ -25,7 +25,7 @@ namespace GameTeamWork
 
         private ScreenManager()
         {
-            Dimensions = new Vector2(1024, 600);
+            Dimensions = new Vector2(800, 576);
             currentScreen = new SplashScreen();
             xmlGameScreenManager = new XmlManager<GameScreen>();
             xmlGameScreenManager.Type = currentScreen.Type;

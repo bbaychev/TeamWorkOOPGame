@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace GameTeamWork
 {
-    public class GameplayScreen : GameScreen
+    public class InitialGameplayScreen : GameScreen
     {
         private Player player;
         private Map map;
@@ -21,7 +20,7 @@ namespace GameTeamWork
             XmlManager<Player> playerLoader = new XmlManager<Player>();
             XmlManager<Map> mapLoader = new XmlManager<Map>();
             player = playerLoader.Load("Load/Gameplay/Player.xml");
-            map = mapLoader.Load("Load/Gameplay/Maps/Map1.xml");
+            map = mapLoader.Load("Load/Gameplay/Maps/01RoomMap.xml");
             player.LoadContent();
             map.LoadContent();
         }

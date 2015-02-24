@@ -108,7 +108,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FadeEffect.cs" />
-    <Compile Include="GameplayScreen.cs" />
+    <Compile Include="InitialGameplayScreen.cs" />
+    <Compile Include="MainGameplayScreen.cs" />
     <Compile Include="GameScreen.cs" />
     <Compile Include="Image.cs" />
     <Compile Include="ImageEffect.cs" />
