@@ -7,9 +7,14 @@ namespace GameTeamWork.Unit
 {
     public  class Unit : IUnit
     {
-        private int health;
-        private int damage;
+       
         private List<IItem> backpack = new List<IItem> { };
+
+        public Unit(int health, int damage)
+        {
+            this.Health = health;
+            this.Damage = damage;
+        }
         public int Health
         {
             get;
@@ -22,9 +27,9 @@ namespace GameTeamWork.Unit
             set;
         }
 
-        public void Attack(IUnit target)
+        public void Attack(Unit target)
         {
-            throw new NotImplementedException();
+            target.Health = target.Health - this.Damage;
         }
 
         public List<IItem> Backpack
@@ -39,9 +44,25 @@ namespace GameTeamWork.Unit
             }
         }
 
-        public void AddItem(Item.IItem item)
+        public void AddItem(IItem item)
         {
-            throw new NotImplementedException();
+            this.Damage += item.DamageBonus;
+            this.Health += item.HealthBonus;
+        }
+
+        public void RemoveItem(Item.Item item)
+        {
+            this.Damage -= item.DamageBonus;
+                //If by chance when the  item is removed and without it the unit-s health goes below 0, we don't want him to die
+            if (this.Health - item.HealthBonus < 0)
+            {
+                this.Health = 1;
+
+            }
+            else
+            {
+                this.Health -= item.HealthBonus;
+            }
         }
     }
 }

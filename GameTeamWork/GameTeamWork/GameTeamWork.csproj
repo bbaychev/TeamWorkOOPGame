@@ -113,8 +113,8 @@
     <Compile Include="Image.cs" />
     <Compile Include="ImageEffect.cs" />
     <Compile Include="InputManager.cs" />
-    <Compile Include="Items\IItem.cs" />
-    <Compile Include="Items\Item.cs" />
+    <Compile Include="Item\IItem.cs" />
+    <Compile Include="Item\Item.cs" />
     <Compile Include="Layer.cs" />
     <Compile Include="Map.cs" />
     <Compile Include="Menu.cs" />

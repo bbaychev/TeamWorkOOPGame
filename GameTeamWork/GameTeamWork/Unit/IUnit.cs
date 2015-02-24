@@ -9,8 +9,9 @@ namespace GameTeamWork.Unit
     {
          int Health { get; set; }
          int Damage { get; set; }
-         void Attack(IUnit target);
+         void Attack(Unit target);
          List<IItem> Backpack { get; set; }
          void AddItem(IItem item);
+         void RemoveItem(Item.Item item);
     }
 }
