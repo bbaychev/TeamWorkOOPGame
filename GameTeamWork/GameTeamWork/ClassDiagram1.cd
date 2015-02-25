@@ -1,11 +1,181 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameTeamWork.Game1" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEEAAAAAAAwAAAAAAAAAAAAAAAAgAAAAAAAAAAAQ=</HashCode>
+      <FileName>Game\Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.GameScreen" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCEAAAAAAAAgAAAAAAAAAAAAAAAAQAAQAAAAAAAAQ=</HashCode>
+      <FileName>Game\GameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.FadeEffect" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAQ=</HashCode>
+      <FileName>Image\FadeEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.SpriteSheetEffect" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAEAAAAAAAAAACAAAAAABAACAAAAAAAgAAIAAAAAQ=</HashCode>
+      <FileName>Image\SpriteSheetEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.InputManager" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAAAAgAAAAAAAAAAAAABAAAAARAAAABBAAAA=</HashCode>
+      <FileName>InputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.Image" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgYCkAGAAAAgAgIgEAZAAAACEIAAABBAAAMACAAAAAQ=</HashCode>
+      <FileName>Item\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.ImageEffect" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Item\ImageEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.Layer" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQCEAAgAAAAAkAAAAAAAAAAAAAAABAEAAAAAAAAAQQ=</HashCode>
+      <FileName>Layer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.Map" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAAAAAAAAAAAAAAAAAEAAAAAAAAgAQ=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.Menu" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAmwAAAAQAAACAAABAgAAAAAAAAAAAAgU=</HashCode>
+      <FileName>Menu\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.MenuItem" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgABAAAAAAIAAAAAA=</HashCode>
+      <FileName>Menu\MenuItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.MenuManager" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAIAAAgAAAAAAAAgAAABAAAAAAAAAAQAAAAQ=</HashCode>
+      <FileName>Menu\MenuManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Class Name="GameTeamWork.Player" Collapsed="true">
-    <Position X="5.75" Y="1.75" Width="1.5" />
+    <Position X="16.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAEAAAAAAAAhAAAAAAAAAAAAAAABAAAAAAAAAEAAQ=</HashCode>
       <FileName>Player.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="GameTeamWork.Program" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.InitialGameplayScreen" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAAAAAAAAAAAAAAAAABAAAAAAAAAAQ=</HashCode>
+      <FileName>Screen\InitialGameplayScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.MainGameplayScreen" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAAAAAAAAAAAAAAAAABAAAAAAAAAAQ=</HashCode>
+      <FileName>Screen\MainGameplayScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.ScreenManager" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAgAAAgAAAACAAAIgAABgABABQAAkAAAAAAQ=</HashCode>
+      <FileName>Screen\ScreenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.SplashScreen" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Screen\SplashScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.TitleScreen" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQEAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Screen\TitleScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.Tile" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAgAAAAIAAAAEAAAABEAAAAAAAAAAQ=</HashCode>
+      <FileName>Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.XmlManager&lt;T&gt;" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>XmlManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTeamWork.Item.Item" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAAA=</HashCode>
+      <FileName>Item\Item.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameTeamWork.Unit.Unit" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACACEAAAABAAAAAAAAAAAgIAAAAAEAAAAAAEAAAg=</HashCode>
+      <FileName>Unit\Unit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.139" Collapsed="true" />
+  </Class>
+  <Interface Name="GameTeamWork.Item.IItem" Collapsed="true">
+    <Position X="13.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAAA=</HashCode>
+      <FileName>Item\IItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameTeamWork.Unit.IUnit" Collapsed="true">
+    <Position X="15.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACACAAAAABAAAAAAAAAAAgIAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\IUnit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
