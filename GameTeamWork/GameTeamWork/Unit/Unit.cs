@@ -7,9 +7,20 @@ namespace GameTeamWork.Unit
 {
     public  class Unit : IUnit
     {
-       
+        private int health;
         private List<IItem> backpack = new List<IItem> { };
+        private bool isAlive = true;
 
+        public bool IsAlive
+        {
+            get { return isAlive; }
+            set {
+ 
+                isAlive = value; 
+
+            }
+        }
+        
         public Unit(int health, int damage)
         {
             this.Health = health;
@@ -17,8 +28,18 @@ namespace GameTeamWork.Unit
         }
         public int Health
         {
-            get;
-            set;
+            get
+            {
+                return health;
+            }
+            set
+            {
+                this.Health = value;
+                if (this.Health < 1)
+                {
+                    isAlive = false;
+                }
+            }
         }
 
         public int Damage
