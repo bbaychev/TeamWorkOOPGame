@@ -8,7 +8,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>Content\Fonts\Arial.xnb</Output>
-      <Time>2015-02-14T19:06:06.9446583+02:00</Time>
+      <Time>2015-02-24T19:02:27.1867965+02:00</Time>
     </Item>
     <Item>
       <Source>ScreenManager\FadeImage.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>Content\ScreenManager\FadeImage.xnb</Output>
-      <Time>2015-02-15T11:32:38.0069881+02:00</Time>
+      <Time>2015-02-24T19:02:27.1937969+02:00</Time>
     </Item>
     <Item>
       <Source>SplashScreen\NewSplashScreen.jpg</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>Content\SplashScreen\NewSplashScreen.xnb</Output>
-      <Time>2015-02-17T20:20:22.8435138+02:00</Time>
+      <Time>2015-02-24T19:02:27.2928025+02:00</Time>
     </Item>
     <Item>
       <Source>Load\Gameplay\player.png</Source>
@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>Content\Load\Gameplay\player.xnb</Output>
-      <Time>2015-02-21T20:18:12.7279187+02:00</Time>
+      <Time>2015-02-24T19:02:27.1917968+02:00</Time>
     </Item>
     <Item>
       <Source>Load\Gameplay\TileSheets\Ground.png</Source>
@@ -44,7 +44,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>Content\Load\Gameplay\TileSheets\Ground.xnb</Output>
-      <Time>2015-02-22T11:57:59.3332587+02:00</Time>
+      <Time>2015-02-24T19:02:27.1917968+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Load\Gameplay\TileSheets\FirstRoom.png</Source>
+      <Name>Load\Gameplay\TileSheets\FirstRoom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Content\Load\Gameplay\TileSheets\FirstRoom.xnb</Output>
+      <Time>2015-02-24T21:03:38.5226931+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -53,10 +62,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\</RootDirectory>
-      <LoggerRootDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\</OutputDirectory>
+      <RootDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\</RootDirectory>
+      <LoggerRootDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWork\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
