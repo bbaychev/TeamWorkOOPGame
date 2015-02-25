@@ -46,6 +46,15 @@
       <Output>Content\Load\Gameplay\TileSheets\Ground.xnb</Output>
       <Time>2015-02-23T10:59:30.982+02:00</Time>
     </Item>
+    <Item>
+      <Source>Load\Gameplay\TileSheets\FirstRoom.png</Source>
+      <Name>Load\Gameplay\TileSheets\FirstRoom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Content\Load\Gameplay\TileSheets\FirstRoom.xnb</Output>
+      <Time>2015-02-25T09:38:42.612+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{B14F7B0F-ACDD-4664-923B-A3F190DA6B54}</ContentProjectGUID>

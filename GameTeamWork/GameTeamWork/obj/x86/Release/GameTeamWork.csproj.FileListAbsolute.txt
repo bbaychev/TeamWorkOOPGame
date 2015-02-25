@@ -40,3 +40,5 @@ C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Con
 C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Maps\Map1.xml
 C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\GameTeamWork.exe
 C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\GameTeamWork.pdb
+C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\TileSheets\FirstRoom.xnb
+C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Maps\01RoomMap.xml
