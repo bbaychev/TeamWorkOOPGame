@@ -40,3 +40,22 @@ C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Con
 C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Maps\Map1.xml
 C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\GameTeamWork.exe
 C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\GameTeamWork.pdb
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Fonts\Arial.xnb
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\ScreenManager\FadeImage.xnb
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\SplashScreen\NewSplashScreen.xnb
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\player.xnb
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\TileSheets\Ground.xnb
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\TileSheets\FirstRoom.xnb
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\SplashScreen.xml
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Menus\TitleMenu.xml
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\ScreenManager.xml
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Menus\TestMenu.xml
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Player.xml
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Maps\Map1.xml
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Maps\01RoomMap.xml
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\GameTeamWork.exe
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\GameTeamWork.pdb
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\GameTeamWork.csprojResolveAssemblyReference.cache
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\GameTeamWork.exe
+D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\GameTeamWork.pdb

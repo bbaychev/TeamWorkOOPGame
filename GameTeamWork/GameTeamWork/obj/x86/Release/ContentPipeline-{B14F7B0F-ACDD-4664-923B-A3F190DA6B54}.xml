@@ -8,7 +8,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>Content\Fonts\Arial.xnb</Output>
-      <Time>2015-02-23T10:59:30.955+02:00</Time>
+      <Time>2015-02-15T20:20:56.6348813+02:00</Time>
     </Item>
     <Item>
       <Source>ScreenManager\FadeImage.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>Content\ScreenManager\FadeImage.xnb</Output>
-      <Time>2015-02-23T10:59:31.022+02:00</Time>
+      <Time>2015-02-15T20:20:56.7628887+02:00</Time>
     </Item>
     <Item>
       <Source>SplashScreen\NewSplashScreen.jpg</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>Content\SplashScreen\NewSplashScreen.xnb</Output>
-      <Time>2015-02-23T10:59:31.086+02:00</Time>
+      <Time>2015-02-24T20:54:20.0288724+02:00</Time>
     </Item>
     <Item>
       <Source>Load\Gameplay\player.png</Source>
@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>Content\Load\Gameplay\player.xnb</Output>
-      <Time>2015-02-23T10:59:30.976+02:00</Time>
+      <Time>2015-02-24T20:54:19.130821+02:00</Time>
     </Item>
     <Item>
       <Source>Load\Gameplay\TileSheets\Ground.png</Source>
@@ -44,7 +44,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>Content\Load\Gameplay\TileSheets\Ground.xnb</Output>
-      <Time>2015-02-23T10:59:30.982+02:00</Time>
+      <Time>2015-02-24T20:54:19.1298209+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Load\Gameplay\TileSheets\FirstRoom.png</Source>
+      <Name>Load\Gameplay\TileSheets\FirstRoom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Content\Load\Gameplay\TileSheets\FirstRoom.xnb</Output>
+      <Time>2015-02-24T21:32:47.1408316+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -53,10 +62,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Release</BuildConfiguration>
       <CompressContent>true</CompressContent>
-      <RootDirectory>C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWork\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\</OutputDirectory>
+      <RootDirectory>D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\</RootDirectory>
+      <LoggerRootDirectory>D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWork\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -85,7 +94,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-02-23T18:33:24.9456+02:00</Value>
+        <Value>2015-02-15T20:37:29.307659+02:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
