@@ -110,6 +110,13 @@ namespace GameTeamWork
             }
             else if (mapSpecs[0].Equals("MainGameplayScreen"))
             {
+                if (Image.Position.X >= 378 && Image.Position.X <= 388 && 
+                    Image.Position.Y <= 367 && Image.Position.Y >= 360 && !isTransitioning)
+                {
+                    isTransitioning = true;
+                    ScreenManager.Instance.ChangeScreens("InitialGameplayScreen");
+                }
+
                 if (Image.Position.Y == 0 && !isTransitioning) //InputManager.Instance.KeyDown(Keys.Space) && 
                 {
                     isTransitioning = true;

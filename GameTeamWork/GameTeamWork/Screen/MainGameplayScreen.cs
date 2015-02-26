@@ -27,7 +27,8 @@ namespace GameTeamWork
             mapSpecs.Add("MainGameplayScreen");
             mapSpecs.Add("InitialGameplayScreen");
             player = playerLoader.Load("Load/Gameplay/Player.xml");
-            map = mapLoader.Load("Load/Gameplay/Maps/Map1.xml");
+            map = mapLoader.Load("Load/Gameplay/Maps/02MainGameplayMap.xml");
+            this.player.Image.Position = new Vector2(384, 368);
             player.LoadContent();
             map.LoadContent();
         }

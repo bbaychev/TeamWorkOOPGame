@@ -32,6 +32,7 @@ namespace GameTeamWork
             //fifth - the screen on the left
             mapSpecs.Add("MainGameplayScreen");
             player = playerLoader.Load("Load/Gameplay/Player.xml");
+            this.player.Image.Position = new Vector2(340, 230);
             map = mapLoader.Load("Load/Gameplay/Maps/01RoomMap.xml");
             player.LoadContent();
             map.LoadContent();

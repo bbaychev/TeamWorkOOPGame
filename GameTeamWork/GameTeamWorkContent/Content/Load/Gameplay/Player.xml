@@ -3,10 +3,6 @@
   <Image>
     <Path>Load/Gameplay/player</Path>
     <Effects>SpriteSheetEffect</Effects>
-    <Position>
-      <X>340</X>
-      <Y>230</Y>
-    </Position>
   </Image>
   <MoveSpeed>160</MoveSpeed>
 </Player>
