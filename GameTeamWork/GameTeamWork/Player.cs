@@ -35,13 +35,6 @@ namespace GameTeamWork
         {
             Image.IsActive = true;
 
-            //Event to send the player in MainGamePlay
-            if (InputManager.Instance.KeyPressed(Keys.Escape))
-            {
-                //here we need to send the game to the MainGameplayScreen..
-                //MainGameplayScreen...
-            }
-
             //this is to lock the movement, so the player won't move diagonally
             if (Velocity.X == 0)
             {
@@ -82,6 +75,14 @@ namespace GameTeamWork
             if (Velocity.X == 0 && Velocity.Y == 0)
             {
                 Image.IsActive = false;
+            }
+
+            //Event to send the player in MainGamePlay
+            //TODO - need to add a check for which screen we're currently on
+            if (InputManager.Instance.KeyPressed(Keys.Enter) && Image.Position.Y == 352)
+            {
+                //here we need to send the game to the MainGameplayScreen..
+                ScreenManager.Instance.ChangeScreens("MainGameplayScreen");
             }
 
             Image.Update(gameTime);

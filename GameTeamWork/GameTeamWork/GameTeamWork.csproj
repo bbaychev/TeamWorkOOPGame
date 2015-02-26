@@ -111,8 +111,8 @@
     <Compile Include="Screen\InitialGameplayScreen.cs" />
     <Compile Include="Screen\MainGameplayScreen.cs" />
     <Compile Include="Game\GameScreen.cs" />
-    <Compile Include="Item\Image.cs" />
-    <Compile Include="Item\ImageEffect.cs" />
+    <Compile Include="Image.cs" />
+    <Compile Include="ImageEffect.cs" />
     <Compile Include="InputManager.cs" />
     <Compile Include="Item\IItem.cs" />
     <Compile Include="Item\Item.cs" />

@@ -38,6 +38,8 @@ namespace GameTeamWork
         public ContentManager Content { get; private set; }
         [XmlIgnore]
         public bool IsTransitioning { get; private set; }
+        [XmlIgnore]
+        public GameScreen CurrentScreen { get; private set; }
 
         public static ScreenManager Instance
         {

@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>Content\SplashScreen\NewSplashScreen.xnb</Output>
-      <Time>2015-02-24T19:02:27.2928025+02:00</Time>
+      <Time>2015-02-26T08:59:16.1867188+02:00</Time>
     </Item>
     <Item>
       <Source>Load\Gameplay\player.png</Source>
