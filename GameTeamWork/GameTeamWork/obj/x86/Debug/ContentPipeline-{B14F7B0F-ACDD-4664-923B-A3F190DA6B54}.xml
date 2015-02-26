@@ -64,6 +64,15 @@
       <Output>Content\Load\Gameplay\TileSheets\Village01.xnb</Output>
       <Time>2015-02-26T18:15:53.7759505+02:00</Time>
     </Item>
+    <Item>
+      <Source>Load\Gameplay\NPC01.png</Source>
+      <Name>Load\Gameplay\NPC01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Content\Load\Gameplay\NPC01.xnb</Output>
+      <Time>2015-02-26T21:38:45.0891098+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{B14F7B0F-ACDD-4664-923B-A3F190DA6B54}</ContentProjectGUID>

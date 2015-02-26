@@ -14,7 +14,6 @@ namespace GameTeamWork.Item
         {
             this.DamageBonus = damageBonus;
             this.HealthBonus = healthBonus;
-
         }
      
     }
