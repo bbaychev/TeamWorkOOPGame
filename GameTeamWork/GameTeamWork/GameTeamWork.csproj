@@ -108,6 +108,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Image\FadeEffect.cs" />
+    <Compile Include="NPC units\NPCBase.cs" />
+    <Compile Include="NPC units\NPCQuester.cs" />
     <Compile Include="Screen\InitialGameplayScreen.cs" />
     <Compile Include="Screen\MainGameplayScreen.cs" />
     <Compile Include="Game\GameScreen.cs" />
