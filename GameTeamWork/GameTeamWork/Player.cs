@@ -10,15 +10,19 @@ using Microsoft.Xna.Framework.Input;
 
 namespace GameTeamWork
 {
-    public class Player
+    public class Player : Unit.Unit
     {
+            
         public Image Image;
         public Vector2 Velocity;
         public float MoveSpeed;
 
         private bool isTransitioning;
 
-        public Player()
+        
+
+        public Player(int health, int damage)
+            :base(health, damage)
         {
             Velocity = Vector2.Zero;
         }
@@ -26,6 +30,7 @@ namespace GameTeamWork
         public void LoadContent()
         {
             Image.LoadContent();
+            
         }
 
         public void UnloadContent()
@@ -151,5 +156,10 @@ namespace GameTeamWork
         {
             Image.Draw(spriteBatch);
         }
+
+        //Health bar
+
+        Texture2D healthTexture;
+        Rectangle healthRecangle;
     }
 }

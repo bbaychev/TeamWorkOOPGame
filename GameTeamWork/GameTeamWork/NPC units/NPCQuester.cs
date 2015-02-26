@@ -22,9 +22,7 @@ namespace GameTeamWork.Npc
         {
             //TODO: Implement quest giving logic
                 return this.questText;
-            
-
-            
+        
         }
     }
 }
