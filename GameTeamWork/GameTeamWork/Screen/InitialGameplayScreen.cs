@@ -20,10 +20,16 @@ namespace GameTeamWork
 
             XmlManager<Player> playerLoader = new XmlManager<Player>();
             XmlManager<Map> mapLoader = new XmlManager<Map>();
+            //The order of these is important
+            //first - the current screen
             mapSpecs.Add("InitialGameplayScreen");
+            //second - the screen on top
             mapSpecs.Add("MainGameplayScreen");
+            //third - the screen on the right
             mapSpecs.Add("MainGameplayScreen");
+            //fourth - the screen on the bottom
             mapSpecs.Add("MainGameplayScreen");
+            //fifth - the screen on the left
             mapSpecs.Add("MainGameplayScreen");
             player = playerLoader.Load("Load/Gameplay/Player.xml");
             map = mapLoader.Load("Load/Gameplay/Maps/01RoomMap.xml");
