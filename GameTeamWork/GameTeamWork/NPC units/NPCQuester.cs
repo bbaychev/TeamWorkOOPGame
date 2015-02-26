@@ -1,10 +1,11 @@
+﻿
 ﻿using GameTeamWork.NPC;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace GameTeamWork.NPC_units
+namespace GameTeamWork.Npc
 {
     public class NPC_Quester : NPC_Base
     {   

@@ -10,7 +10,12 @@ namespace GameTeamWork.Item
         public int DamageBonus { get; set; }
         public int HealthBonus { get; set; }
 
+        public Item(int damageBonus, int healthBonus)
+        {
+            this.DamageBonus = damageBonus;
+            this.HealthBonus = healthBonus;
 
+        }
      
     }
 }

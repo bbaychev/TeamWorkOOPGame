@@ -59,3 +59,5 @@ D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\Team
 D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
 D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\GameTeamWork.exe
 D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\GameTeamWork.pdb
+C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\TileSheets\FirstRoom.xnb
+C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Maps\01RoomMap.xml
