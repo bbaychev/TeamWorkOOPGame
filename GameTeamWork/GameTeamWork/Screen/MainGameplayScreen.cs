@@ -21,11 +21,11 @@ namespace GameTeamWork
 
             XmlManager<Player> playerLoader = new XmlManager<Player>();
             XmlManager<Map> mapLoader = new XmlManager<Map>();
+            mapSpecs.Add("MainGameplayScreen");
+            mapSpecs.Add("MainGameplayScreen");
             mapSpecs.Add("InitialGameplayScreen");
             mapSpecs.Add("MainGameplayScreen");
-            mapSpecs.Add("MainGameplayScreen");
-            mapSpecs.Add("MainGameplayScreen");
-            mapSpecs.Add("MainGameplayScreen");
+            mapSpecs.Add("InitialGameplayScreen");
             player = playerLoader.Load("Load/Gameplay/Player.xml");
             map = mapLoader.Load("Load/Gameplay/Maps/Map1.xml");
             player.LoadContent();

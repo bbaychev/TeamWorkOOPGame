@@ -16,6 +16,8 @@ namespace GameTeamWork
         public Vector2 Velocity;
         public float MoveSpeed;
 
+        private bool isTransitioning;
+
         public Player()
         {
             Velocity = Vector2.Zero;
@@ -100,19 +102,37 @@ namespace GameTeamWork
             if (mapSpecs[0].Equals("InitialGameplayScreen"))
             {
                 //Event to send the player in MainGamePlay
-                if (InputManager.Instance.KeyPressed(Keys.Space) && Image.Position.Y == 352)
+                if (Image.Position.Y == 352 && !isTransitioning)
                 {
-                    ScreenManager.Instance.ChangeScreens("MainGameplayScreen");
-                }
-
-                if (InputManager.Instance.KeyPressed(Keys.Space) && Image.Position.Y == 0)
-                {
+                    isTransitioning = true;
                     ScreenManager.Instance.ChangeScreens("MainGameplayScreen");
                 }
             }
             else if (mapSpecs[0].Equals("MainGameplayScreen"))
             {
-
+                if (Image.Position.Y == 0 && !isTransitioning) //InputManager.Instance.KeyDown(Keys.Space) && 
+                {
+                    isTransitioning = true;
+                    ScreenManager.Instance.ChangeScreens(mapSpecs[1]);
+                }
+                
+                if (Image.Position.X == 0 && !isTransitioning)
+                {
+                    isTransitioning = true;
+                    ScreenManager.Instance.ChangeScreens(mapSpecs[4]);
+                }
+                
+                if (Image.Position.X == ScreenManager.Instance.Dimensions.X - 32 && !isTransitioning)
+                {
+                    isTransitioning = true;
+                    ScreenManager.Instance.ChangeScreens(mapSpecs[2]);
+                }
+                
+                if (Image.Position.Y == ScreenManager.Instance.Dimensions.Y - 34 && !isTransitioning)
+                {
+                    isTransitioning = true;
+                    ScreenManager.Instance.ChangeScreens(mapSpecs[3]);
+                }
             }
             
 
