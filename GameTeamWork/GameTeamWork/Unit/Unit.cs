@@ -7,15 +7,10 @@ namespace GameTeamWork.Unit
 {
     public  class Unit : IUnit
     {
-        private int health = 3;
-        private int damage = 3;
+        private int health;
         private List<IItem> backpack = new List<IItem> { };
         private bool isAlive = true;
 
-        public Unit()
-        {
-
-        }
         public bool IsAlive
         {
             get { return isAlive; }
@@ -29,7 +24,7 @@ namespace GameTeamWork.Unit
         public Unit(int health, int damage)
         {
             this.Health = health;
-            this.damage = damage;
+            this.Damage = damage;
         }
         public int Health
         {
