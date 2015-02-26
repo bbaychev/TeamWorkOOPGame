@@ -4,7 +4,7 @@
     <Path>Load/Gameplay/player</Path>
     <Effects>SpriteSheetEffect</Effects>
     <Position>
-      <X>220</X>
+      <X>340</X>
       <Y>230</Y>
     </Position>
   </Image>

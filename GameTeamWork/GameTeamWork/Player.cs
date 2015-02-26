@@ -31,7 +31,7 @@ namespace GameTeamWork
             Image.UnloadContent();
         }
 
-        public void Update(GameTime gameTime)
+        public void Update(GameTime gameTime, List<string> mapSpecs)
         {
             Image.IsActive = true;
 
@@ -77,13 +77,44 @@ namespace GameTeamWork
                 Image.IsActive = false;
             }
 
-            //Event to send the player in MainGamePlay
-            //TODO - need to add a check for which screen we're currently on
-            if (InputManager.Instance.KeyPressed(Keys.Enter) && Image.Position.Y == 352)
+            if (Image.Position.Y < 0)
             {
-                //here we need to send the game to the MainGameplayScreen..
-                ScreenManager.Instance.ChangeScreens("MainGameplayScreen");
+                Image.Position.Y = 0;
             }
+
+            if (Image.Position.X < 0)
+            {
+                Image.Position.X = 0;
+            }
+
+            if (Image.Position.Y > ScreenManager.Instance.Dimensions.Y - 34)
+            {
+                Image.Position.Y = ScreenManager.Instance.Dimensions.Y - 34;
+            }
+
+            if (Image.Position.X > ScreenManager.Instance.Dimensions.X - 32)
+            {
+                Image.Position.X = ScreenManager.Instance.Dimensions.X - 32;
+            }
+
+            if (mapSpecs[0].Equals("InitialGameplayScreen"))
+            {
+                //Event to send the player in MainGamePlay
+                if (InputManager.Instance.KeyPressed(Keys.Space) && Image.Position.Y == 352)
+                {
+                    ScreenManager.Instance.ChangeScreens("MainGameplayScreen");
+                }
+
+                if (InputManager.Instance.KeyPressed(Keys.Space) && Image.Position.Y == 0)
+                {
+                    ScreenManager.Instance.ChangeScreens("MainGameplayScreen");
+                }
+            }
+            else if (mapSpecs[0].Equals("MainGameplayScreen"))
+            {
+
+            }
+            
 
             Image.Update(gameTime);
             Image.Position += Velocity;
