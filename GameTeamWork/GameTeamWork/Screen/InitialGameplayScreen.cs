@@ -13,6 +13,7 @@ namespace GameTeamWork
         private Player player;
         private Map map;
         private List<string> mapSpecs = new List<string>();
+        private Npc.NPCQuester npcQuester;
 
         public override void LoadContent()
         {
@@ -20,6 +21,7 @@ namespace GameTeamWork
 
             XmlManager<Player> playerLoader = new XmlManager<Player>();
             XmlManager<Map> mapLoader = new XmlManager<Map>();
+            XmlManager<Npc.NPCQuester> npcLoader = new XmlManager<Npc.NPCQuester>();
             //The order of these is important
             //first - the current screen
             mapSpecs.Add("InitialGameplayScreen");
@@ -34,7 +36,9 @@ namespace GameTeamWork
             player = playerLoader.Load("Load/Gameplay/Player.xml");
             this.player.Image.Position = new Vector2(340, 230);
             map = mapLoader.Load("Load/Gameplay/Maps/01RoomMap.xml");
+            npcQuester = npcLoader.Load("Load/Gameplay/NPCQuester.xml");
             player.LoadContent();
+            npcQuester.LoadContent();
             map.LoadContent();
         }
 
@@ -42,6 +46,7 @@ namespace GameTeamWork
         {
             base.UnloadContent();
             player.UnloadContent();
+            npcQuester.UnloadContent();
             map.UnloadContent();
         }
 
@@ -50,6 +55,7 @@ namespace GameTeamWork
             base.Update(gameTime);
             //this may not be the best way to do it, but I can't think of anything else
             player.Update(gameTime, mapSpecs);
+            npcQuester.Update(gameTime, ref player);
             map.Update(gameTime, ref player);
         }
 
@@ -58,6 +64,7 @@ namespace GameTeamWork
             base.Draw(spriteBatch);
             map.Draw(spriteBatch, "Underlay");
             player.Draw(spriteBatch);
+            npcQuester.Draw(spriteBatch);
             map.Draw(spriteBatch, "Overlay");
         }
     }

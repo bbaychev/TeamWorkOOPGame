@@ -113,14 +113,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Load\Gameplay\Maps\Map1.xml">
-      <Name>Map1</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Load\Gameplay\Maps\01RoomMap.xml">
       <Name>01RoomMap</Name>
       <Importer>XmlImporter</Importer>
@@ -155,6 +147,21 @@
   <ItemGroup>
     <Compile Include="Load\Gameplay\TileSheets\Village01.png">
       <Name>Village01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Load\Gameplay\NPCQuester.xml">
+      <Name>NPCQuester</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Load\Gameplay\NPC01.png">
+      <Name>NPC01</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

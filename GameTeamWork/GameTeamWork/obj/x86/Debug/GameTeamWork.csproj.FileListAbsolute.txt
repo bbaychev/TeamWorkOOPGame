@@ -56,7 +56,6 @@ C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\Gam
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\ScreenManager.xml
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Menus\TestMenu.xml
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Player.xml
-C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Maps\Map1.xml
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\GameTeamWork.exe
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\GameTeamWork.pdb
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Debug\GameTeamWork.csprojResolveAssemblyReference.cache
@@ -67,3 +66,5 @@ C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\Gam
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\TileSheets\FirstRoom.xnb
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\TileSheets\Village01.xnb
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Maps\02MainGameplayMap.xml
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\NPC01.xnb
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\NPCQuester.xml
