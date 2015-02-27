@@ -111,7 +111,7 @@ namespace GameTeamWork
             else if (mapSpecs[0].Equals("MainGameplayScreen"))
             {
                 if (Image.Position.X >= 378 && Image.Position.X <= 388 && 
-                    Image.Position.Y <= 367 && Image.Position.Y >= 360 && !isTransitioning)
+                    Image.Position.Y <= 366 && Image.Position.Y >= 350 && !isTransitioning)
                 {
                     isTransitioning = true;
                     ScreenManager.Instance.ChangeScreens("InitialGameplayScreen");

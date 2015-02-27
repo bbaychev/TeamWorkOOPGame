@@ -33,11 +33,9 @@ namespace GameTeamWork.Npc
 
         public void LoadContent()
         {
-<<<<<<< HEAD
             //TODO: Implement quest giving logic
-                return this.questText;
+        //        return this.questText;
         
-=======
             Image.LoadContent();
         }
 
@@ -54,7 +52,6 @@ namespace GameTeamWork.Npc
                 goAhead = true;
                 StartConversation();
             }
->>>>>>> origin/master
         }
 
         public void Draw(SpriteBatch spriteBatch)
