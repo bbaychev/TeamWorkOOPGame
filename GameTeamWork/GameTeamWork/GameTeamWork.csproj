@@ -136,6 +136,7 @@
     <Compile Include="Image\SpriteSheetEffect.cs" />
     <Compile Include="Tile.cs" />
     <Compile Include="Screen\TitleScreen.cs" />
+    <Compile Include="Unit\HealthBar.cs" />
     <Compile Include="Unit\IUnit.cs" />
     <Compile Include="Unit\Unit.cs" />
     <Compile Include="XmlManager.cs" />

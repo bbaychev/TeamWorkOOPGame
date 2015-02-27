@@ -16,6 +16,8 @@ namespace GameTeamWork.Unit
     {
         private Texture2D healthBar;
         private Vector2 position;
+        private int fullHealth;
+        private int currentHealth;
 
         public HealthBar(ContentManager content)
         {
@@ -35,7 +37,7 @@ namespace GameTeamWork.Unit
 
         public void Draw(SpriteBatch spritebatch)
         {
-            spritebatch.Draw(healthBar, position, Color.White);
+            spritebatch.Draw(healthBar, position,new Rectangle((int) position.X,(int) position.Y, currentHealth, healthBar.Height) ,Color.White);
         }
 
 

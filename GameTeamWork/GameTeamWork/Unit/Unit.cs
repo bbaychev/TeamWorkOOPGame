@@ -71,7 +71,7 @@ namespace GameTeamWork.Unit
             this.Health += item.HealthBonus;
         }
 
-        public void RemoveItem(Item.Item item)
+        public void RemoveItem(ItemAbstract item)
         {
             this.Damage -= item.DamageBonus;
                 //If by chance when the  item is removed and without it the unit-s health goes below 0, we don't want him to die

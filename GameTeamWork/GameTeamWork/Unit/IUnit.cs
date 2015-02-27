@@ -13,6 +13,6 @@ namespace GameTeamWork.Unit
          void Attack(Unit target);
          List<IItem> Backpack { get; set; }
          void AddItem(IItem item);
-         void RemoveItem(Item.Item item);
+         void RemoveItem(ItemAbstract item);
     }
 }
