@@ -4,5 +4,6 @@
     <Path>Load/Gameplay/player</Path>
     <Effects>SpriteSheetEffect</Effects>
   </Image>
+  <IsAlive>true</IsAlive>
   <MoveSpeed>160</MoveSpeed>
 </Player>

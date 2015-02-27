@@ -108,9 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Image\FadeEffect.cs" />
-    <Compile Include="INPC.cs" />
     <Compile Include="Npc\NPCQuestText.cs" />
-    <Compile Include="NPC_Quester.cs" />
     <Compile Include="NPC units\INPC.cs" />
     <Compile Include="NPC units\NPC_Quester.cs" />
     <Compile Include="Item\HealthPotion.cs" />

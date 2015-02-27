@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Xml.Serialization;
 
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
@@ -11,7 +12,7 @@ using GameTeamWork.Item;
 using GameTeamWork.Unit;
 namespace GameTeamWork
 {
-    public class Player : Unit.Unit
+    public class Player
     {
         public Image Image;
         public Vector2 Velocity;
@@ -20,17 +21,16 @@ namespace GameTeamWork
         private bool isTransitioning;
         //PLayer characteristics
 
-        const int playerHealth = 100;
-        private const int playerDamage = 100;
+        [XmlIgnore]
+        public int playerHealth = 100;
+        [XmlIgnore]
+        public int playerDamage = 100;
         
 
         
         public Player()
-            :base(playerHealth, playerDamage)
-            
         {
             Velocity = Vector2.Zero;
-            
         }
 
         public void LoadContent()

@@ -73,6 +73,15 @@
       <Output>Content\Load\Gameplay\NPC01.xnb</Output>
       <Time>2015-02-26T21:38:45.0891098+02:00</Time>
     </Item>
+    <Item>
+      <Source>Health_Bar.png</Source>
+      <Name>Health_Bar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Content\Health_Bar.xnb</Output>
+      <Time>2015-02-27T11:28:22.6046721+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{B14F7B0F-ACDD-4664-923B-A3F190DA6B54}</ContentProjectGUID>

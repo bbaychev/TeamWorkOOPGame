@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using GameTeamWork.Item;
+using System.Xml.Serialization;
+
 namespace GameTeamWork.Unit
 {
     public  class Unit : IUnit
@@ -11,6 +13,7 @@ namespace GameTeamWork.Unit
         private List<IItem> backpack = new List<IItem> { };
         private bool isAlive = true;
 
+        [XmlIgnore]
         public bool IsAlive
         {
             get { return isAlive; }
@@ -21,11 +24,13 @@ namespace GameTeamWork.Unit
             }
         }
         
-        public Unit(int health, int damage)
+        public Unit()
         {
-            this.Health = health;
-            this.Damage = damage;
+            this.Health = 1;
+            this.Damage = 1;
         }
+
+        [XmlIgnore]
         public int Health
         {
             get
@@ -42,6 +47,7 @@ namespace GameTeamWork.Unit
             }
         }
 
+        [XmlIgnore]
         public int Damage
         {
             get;
@@ -53,6 +59,7 @@ namespace GameTeamWork.Unit
             target.Health = target.Health - this.Damage;
         }
 
+        [XmlIgnore]
         public List<IItem> Backpack
         {
             get
