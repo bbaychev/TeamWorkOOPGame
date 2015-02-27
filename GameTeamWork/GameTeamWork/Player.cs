@@ -150,9 +150,11 @@ namespace GameTeamWork
 
         public void AddItems(List<ItemAbstract> items)
         {
+            int maxCountItems = 20;
+
             foreach (var item in items)
             {
-                if (collectedItems.Count < 20)
+                if (collectedItems.Count < maxCountItems)
                 {
                     collectedItems.Add(item);
                 }
