@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using GameTeamWork.Item;
 
 namespace GameTeamWork
 {
@@ -15,6 +16,7 @@ namespace GameTeamWork
         public Image Image;
         public Vector2 Velocity;
         public float MoveSpeed;
+        public List<ItemAbstract> collectedItems = new List<ItemAbstract>();
 
         private bool isTransitioning;
 

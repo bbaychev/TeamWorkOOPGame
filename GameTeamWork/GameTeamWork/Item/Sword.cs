@@ -5,10 +5,10 @@ using System.Text;
 
 namespace GameTeamWork.Item
 {
-    public class Sword : Item
+    public class Sword : ItemAbstract
     {
         public Sword()
-            :base(2,0)
+            : base(2, 0)
         {
 
         }

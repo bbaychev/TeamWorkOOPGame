@@ -121,7 +121,7 @@
     <Compile Include="ImageEffect.cs" />
     <Compile Include="InputManager.cs" />
     <Compile Include="Item\IItem.cs" />
-    <Compile Include="Item\Item.cs" />
+    <Compile Include="Item\ItemAbstract.cs" />
     <Compile Include="Layer.cs" />
     <Compile Include="Map.cs" />
     <Compile Include="Menu\Menu.cs" />
