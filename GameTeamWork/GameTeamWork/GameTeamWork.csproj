@@ -109,11 +109,12 @@
   <ItemGroup>
     <Compile Include="Image\FadeEffect.cs" />
     <Compile Include="INPC.cs" />
+    <Compile Include="Npc\NPCQuestText.cs" />
     <Compile Include="NPC_Quester.cs" />
     <Compile Include="Item\HealthPotion.cs" />
     <Compile Include="Item\Sword.cs" />
-    <Compile Include="NPC units\NPCBase.cs" />
-    <Compile Include="NPC units\NPCQuester.cs" />
+    <Compile Include="Npc\NPCBase.cs" />
+    <Compile Include="Npc\NPCQuester.cs" />
     <Compile Include="Screen\InitialGameplayScreen.cs" />
     <Compile Include="Screen\MainGameplayScreen.cs" />
     <Compile Include="Game\GameScreen.cs" />

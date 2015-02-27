@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <NPCQuester>
+  <QuestText>
+    <QuesterText>The fuck you doing here?</QuesterText>
+    <PlayerText>I don't know. But you're here also.</PlayerText>
+    <QuesterText>Yeah, so what?</QuesterText>
+    <PlayerText>Eh.. nothing I guess.</PlayerText>
+  </QuestText>
   <Image>
     <Path>Load/Gameplay/NPC01</Path>
     <Position>
@@ -8,8 +14,4 @@
     </Position>
   </Image>
   <IsAttackable>false</IsAttackable>
-  <QuestText>The fuck you doing here?</QuestText>
-  <PlayerText>I don't know. But you're here also.</PlayerText>
-  <QuestText>Yeah, so what?</QuestText>
-  <PlayerText>Eh.. nothing I guess.</PlayerText>
 </NPCQuester>

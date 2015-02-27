@@ -64,7 +64,7 @@ namespace GameTeamWork
             base.Draw(spriteBatch);
             map.Draw(spriteBatch, "Underlay");
             player.Draw(spriteBatch);
-            npcQuester.Draw(spriteBatch);
+            npcQuester.Draw(spriteBatch, ref player);
             map.Draw(spriteBatch, "Overlay");
         }
     }
