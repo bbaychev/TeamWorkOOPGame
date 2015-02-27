@@ -108,8 +108,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Image\FadeEffect.cs" />
-    <Compile Include="INPC.cs" />
-    <Compile Include="NPC_Quester.cs" />
+    <Compile Include="NPC units\INPC.cs" />
+    <Compile Include="NPC units\NPC_Quester.cs" />
     <Compile Include="Item\HealthPotion.cs" />
     <Compile Include="Item\Sword.cs" />
     <Compile Include="NPC units\NPCBase.cs" />
@@ -117,8 +117,8 @@
     <Compile Include="Screen\InitialGameplayScreen.cs" />
     <Compile Include="Screen\MainGameplayScreen.cs" />
     <Compile Include="Game\GameScreen.cs" />
-    <Compile Include="Image.cs" />
-    <Compile Include="ImageEffect.cs" />
+    <Compile Include="Image\Image.cs" />
+    <Compile Include="Image\ImageEffect.cs" />
     <Compile Include="InputManager.cs" />
     <Compile Include="Item\IItem.cs" />
     <Compile Include="Item\ItemAbstract.cs" />
