@@ -9,10 +9,4 @@
       <Text>New Game</Text>
     </Image>
   </Item>
-
-  <Item>
-    <Image>
-      <Text>Credits</Text>
-    </Image>
-  </Item>
 </Menu>
