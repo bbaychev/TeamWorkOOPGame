@@ -82,6 +82,15 @@
       <Output>Content\Health_Bar.xnb</Output>
       <Time>2015-02-27T11:28:22.6046721+02:00</Time>
     </Item>
+    <Item>
+      <Source>SplashScreen\SplashScreen800x576pixels.jpg</Source>
+      <Name>SplashScreen\SplashScreen800x576pixels</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Content\SplashScreen\SplashScreen800x576pixels.xnb</Output>
+      <Time>2015-02-26T08:59:16.2217208+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{B14F7B0F-ACDD-4664-923B-A3F190DA6B54}</ContentProjectGUID>

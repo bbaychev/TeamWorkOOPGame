@@ -69,3 +69,4 @@ C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\Gam
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\NPC01.xnb
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\NPCQuester.xml
 C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Health_Bar.xnb
+C:\daskalo\Softuni\Domashni\OOP\Teamwork\Clone2\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\SplashScreen\SplashScreen800x576pixels.xnb

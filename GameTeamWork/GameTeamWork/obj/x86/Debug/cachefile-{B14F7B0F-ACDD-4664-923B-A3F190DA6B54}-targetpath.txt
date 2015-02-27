@@ -7,6 +7,7 @@ Content\Load\Gameplay\TileSheets\FirstRoom.xnb
 Content\Load\Gameplay\TileSheets\Village01.xnb
 Content\Load\Gameplay\NPC01.xnb
 Content\Health_Bar.xnb
+Content\SplashScreen\SplashScreen800x576pixels.xnb
 Content\Load\SplashScreen.xml
 Content\Load\Menus\TitleMenu.xml
 Content\Load\ScreenManager.xml
