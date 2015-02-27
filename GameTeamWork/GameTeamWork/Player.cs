@@ -8,20 +8,29 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using GameTeamWork.Item;
+using GameTeamWork.Unit;
 namespace GameTeamWork
 {
-    public class Player
+    public class Player : Unit.Unit
     {
         public Image Image;
         public Vector2 Velocity;
         public float MoveSpeed;
         public List<ItemAbstract> collectedItems = new List<ItemAbstract>();
-
         private bool isTransitioning;
+        //PLayer characteristics
 
+        const int playerHealth = 100;
+        private const int playerDamage = 100;
+        
+
+        
         public Player()
+            :base(playerHealth, playerDamage)
+            
         {
             Velocity = Vector2.Zero;
+            
         }
 
         public void LoadContent()

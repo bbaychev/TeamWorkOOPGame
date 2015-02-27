@@ -16,13 +16,13 @@ namespace GameTeamWork.Unit
     {
         private Texture2D healthBar;
         private Vector2 position;
-        private int fullHealth;
         private int currentHealth;
 
-        public HealthBar(ContentManager content)
+        public HealthBar(ContentManager content, int currentHealth)
         {
-            position = new Vector2(100, 100);
+            position = new Vector2(10, 10);
             LoadContent(content);
+            this.currentHealth = currentHealth;
         }
 
         private void LoadContent(ContentManager content)
