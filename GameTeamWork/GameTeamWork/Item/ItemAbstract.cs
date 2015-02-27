@@ -11,11 +11,13 @@ namespace GameTeamWork.Item
 
         public int DamageBonus { get; set; }
         public int HealthBonus { get; set; }
+        public int ItemId { get; set; }
 
-        public ItemAbstract(int damageBonus, int healthBonus)
+        public ItemAbstract(int damageBonus, int healthBonus, int itemId)
         {
             this.DamageBonus = damageBonus;
             this.HealthBonus = healthBonus;
+            this.ItemId = itemId;
         }
     }
 }

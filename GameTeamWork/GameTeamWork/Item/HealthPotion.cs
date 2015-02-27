@@ -7,8 +7,8 @@ namespace GameTeamWork.Item
 {
     public class HealthPotion : ItemAbstract
     {
-        public HealthPotion()
-            : base(0, 2)
+        public HealthPotion(int damageBonus, int healthBonus, int itemId)
+            : base(damageBonus, healthBonus, itemId)
         {
 
         }

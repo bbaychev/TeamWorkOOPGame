@@ -7,8 +7,8 @@ namespace GameTeamWork.Item
 {
     public class Sword : ItemAbstract
     {
-        public Sword()
-            : base(2, 0)
+        public Sword(int damageBonus, int healthBonus, int itemId)
+            : base(damageBonus, healthBonus, itemId)
         {
 
         }
