@@ -12,7 +12,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 namespace GameTeamWork.Unit
 {
-    public class HealthBar
+    public  class HealthBar
     {
         private Texture2D healthBar;
         private Vector2 position;
@@ -27,7 +27,7 @@ namespace GameTeamWork.Unit
 
         private void LoadContent(ContentManager content)
         {
-            healthBar = content.Load<Texture2D>("Health_Bar");
+            healthBar = content.Load<Texture2D>("Load/Health_Bar");
         }
 
         public void Update()
