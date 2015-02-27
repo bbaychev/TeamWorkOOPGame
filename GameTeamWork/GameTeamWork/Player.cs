@@ -7,20 +7,30 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-
+using GameTeamWork.Item;
+using GameTeamWork.Unit;
 namespace GameTeamWork
 {
-    public class Player
+    public class Player : Unit.Unit
     {
         public Image Image;
         public Vector2 Velocity;
         public float MoveSpeed;
-
+        public List<ItemAbstract> collectedItems = new List<ItemAbstract>();
         private bool isTransitioning;
+        //PLayer characteristics
 
+        const int playerHealth = 100;
+        private const int playerDamage = 100;
+        
+
+        
         public Player()
+            :base(playerHealth, playerDamage)
+            
         {
             Velocity = Vector2.Zero;
+            
         }
 
         public void LoadContent()
@@ -110,7 +120,7 @@ namespace GameTeamWork
             }
             else if (mapSpecs[0].Equals("MainGameplayScreen"))
             {
-                if (Image.Position.X >= 378 && Image.Position.X <= 388 && 
+                if (Image.Position.X >= 378 && Image.Position.X <= 388 &&
                     Image.Position.Y <= 366 && Image.Position.Y >= 350 && !isTransitioning)
                 {
                     isTransitioning = true;
@@ -122,31 +132,47 @@ namespace GameTeamWork
                     isTransitioning = true;
                     ScreenManager.Instance.ChangeScreens(mapSpecs[1]);
                 }
-                
+
                 if (Image.Position.X == 0 && !isTransitioning)
                 {
                     isTransitioning = true;
                     ScreenManager.Instance.ChangeScreens(mapSpecs[4]);
                 }
-                
+
                 if (Image.Position.X == ScreenManager.Instance.Dimensions.X - 32 && !isTransitioning)
                 {
                     isTransitioning = true;
                     ScreenManager.Instance.ChangeScreens(mapSpecs[2]);
                 }
-                
+
                 if (Image.Position.Y == ScreenManager.Instance.Dimensions.Y - 34 && !isTransitioning)
                 {
                     isTransitioning = true;
                     ScreenManager.Instance.ChangeScreens(mapSpecs[3]);
                 }
             }
-            
+
 
             Image.Update(gameTime);
             Image.Position += Velocity;
         }
 
+        public void AddItems(List<ItemAbstract> items)
+        {
+            int maxCountItems = 20;
+
+            foreach (var item in items)
+            {
+                if (collectedItems.Count < maxCountItems)
+                {
+                    collectedItems.Add(item);
+                }
+                else
+                {
+                    break;
+                }
+            }
+        }
         public void Draw(SpriteBatch spriteBatch)
         {
             Image.Draw(spriteBatch);

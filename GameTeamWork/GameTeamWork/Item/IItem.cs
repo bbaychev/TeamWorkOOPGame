@@ -5,11 +5,9 @@ using System.Text;
 
 namespace GameTeamWork.Item
 {
-   public  interface IItem
+    public interface IItem
     {
-         int DamageBonus { get; set; }
-         int HealthBonus { get; set; }
-
-
+        int DamageBonus { get; set; }
+        int HealthBonus { get; set; }
     }
 }

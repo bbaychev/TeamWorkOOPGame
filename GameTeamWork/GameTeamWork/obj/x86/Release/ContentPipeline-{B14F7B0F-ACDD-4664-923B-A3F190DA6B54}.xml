@@ -8,7 +8,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>Content\Fonts\Arial.xnb</Output>
-      <Time>2015-02-23T10:59:30.955+02:00</Time>
+      <Time>2015-02-27T10:06:58.844+02:00</Time>
     </Item>
     <Item>
       <Source>ScreenManager\FadeImage.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>Content\ScreenManager\FadeImage.xnb</Output>
-      <Time>2015-02-23T10:59:31.022+02:00</Time>
+      <Time>2015-02-27T10:06:58.938+02:00</Time>
     </Item>
     <Item>
       <Source>SplashScreen\NewSplashScreen.jpg</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>Content\SplashScreen\NewSplashScreen.xnb</Output>
-      <Time>2015-02-23T10:59:31.086+02:00</Time>
+      <Time>2015-02-27T10:06:59.005+02:00</Time>
     </Item>
     <Item>
       <Source>Load\Gameplay\player.png</Source>
@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>Content\Load\Gameplay\player.xnb</Output>
-      <Time>2015-02-23T10:59:30.976+02:00</Time>
+      <Time>2015-02-27T10:06:58.875+02:00</Time>
     </Item>
     <Item>
       <Source>Load\Gameplay\TileSheets\Ground.png</Source>
@@ -44,7 +44,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>Content\Load\Gameplay\TileSheets\Ground.xnb</Output>
-      <Time>2015-02-23T10:59:30.982+02:00</Time>
+      <Time>2015-02-27T10:06:58.888+02:00</Time>
     </Item>
     <Item>
       <Source>Load\Gameplay\TileSheets\FirstRoom.png</Source>
@@ -53,7 +53,34 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>Content\Load\Gameplay\TileSheets\FirstRoom.xnb</Output>
-      <Time>2015-02-26T13:22:16.9902+02:00</Time>
+      <Time>2015-02-27T10:06:58.885+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Load\Gameplay\TileSheets\Village01.png</Source>
+      <Name>Load\Gameplay\TileSheets\Village01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Content\Load\Gameplay\TileSheets\Village01.xnb</Output>
+      <Time>2015-02-27T10:06:58.893+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Load\Gameplay\NPC01.png</Source>
+      <Name>Load\Gameplay\NPC01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Content\Load\Gameplay\NPC01.xnb</Output>
+      <Time>2015-02-27T10:06:58.869+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Health_Bar.png</Source>
+      <Name>Health_Bar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Content\Health_Bar.xnb</Output>
+      <Time>2015-02-27T10:22:34.141+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

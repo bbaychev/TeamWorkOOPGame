@@ -5,12 +5,12 @@ using System.Text;
 
 namespace GameTeamWork.Item
 {
-    public class HealthPotion : Item
+    public class HealthPotion : ItemAbstract
     {
-        public HealthPotion()
-            :base(0,2)
+        public HealthPotion(int damageBonus, int healthBonus, int itemId)
+            : base(0, 2, itemId)
         {
-            
+
         }
     }
 }

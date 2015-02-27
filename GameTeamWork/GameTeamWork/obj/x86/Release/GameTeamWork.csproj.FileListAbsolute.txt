@@ -37,7 +37,6 @@ C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Con
 C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\ScreenManager.xml
 C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Menus\TestMenu.xml
 C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Player.xml
-C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Maps\Map1.xml
 C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\GameTeamWork.exe
 C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\GameTeamWork.pdb
 D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Fonts\Arial.xnb
@@ -61,3 +60,8 @@ D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\Team
 D:\ASYA\_SOFTUNI\level 2 - high-quality code, oop,\01. oop\TEAMWORK PROJECT\TeamWorkOOPGame\GameTeamWork\GameTeamWork\obj\x86\Release\GameTeamWork.pdb
 C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\TileSheets\FirstRoom.xnb
 C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Maps\01RoomMap.xml
+C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\TileSheets\Village01.xnb
+C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\NPC01.xnb
+C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\Maps\02MainGameplayMap.xml
+C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Load\Gameplay\NPCQuester.xml
+C:\Users\Nasko\Source\Repos\TeamWorkOOPGame\GameTeamWork\GameTeamWorkContent\Content\Health_Bar.xnb

@@ -4,10 +4,14 @@ Content\SplashScreen\NewSplashScreen.xnb
 Content\Load\Gameplay\player.xnb
 Content\Load\Gameplay\TileSheets\Ground.xnb
 Content\Load\Gameplay\TileSheets\FirstRoom.xnb
+Content\Load\Gameplay\TileSheets\Village01.xnb
+Content\Load\Gameplay\NPC01.xnb
+Content\Health_Bar.xnb
 Content\Load\SplashScreen.xml
 Content\Load\Menus\TitleMenu.xml
 Content\Load\ScreenManager.xml
 Content\Load\Menus\TestMenu.xml
 Content\Load\Gameplay\Player.xml
-Content\Load\Gameplay\Maps\Map1.xml
 Content\Load\Gameplay\Maps\01RoomMap.xml
+Content\Load\Gameplay\Maps\02MainGameplayMap.xml
+Content\Load\Gameplay\NPCQuester.xml
